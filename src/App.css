@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #111111;
+
+}
+
+.App {
+  display: flex;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  flex-wrap: wrap;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  color: white;
+  font-size: 80px;
+}
+
+.img-container {
+  width: 150px;
+  height: 275px;
+  cursor: pointer;
+}
+
+.container-books {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+
+.ReadingList {
+  display: flex;
+  background-color: #13181C;
+  border: 1px solid white;
+  border-radius: 15px;
+  width: 40%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container-List {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.ReadingList h2 {
+  color: white;
+}
+
+.lecture-img {
+  width: 170px;
+  height: 275px;
+}
+
+.container-counters h3 {
+  color: white;
+}
+
+.ReadingList img {
+  cursor: pointer;
+}
+
+.container-paginas {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+
+}
+
+.selected {
+  filter: brightness(30%);
+  width: 145px;
+  height: 270px;
+}
+
+.blurred {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  width: 140px;
+  height: 265px;
+  background-color: #ccc;
+}
+
+#booklist {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
